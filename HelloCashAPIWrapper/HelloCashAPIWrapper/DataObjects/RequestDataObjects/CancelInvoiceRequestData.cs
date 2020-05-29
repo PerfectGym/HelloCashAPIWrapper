@@ -8,7 +8,7 @@ using System.Web.Script.Serialization;
 
 namespace HelloCashAPIWrapper.DataObjects
 {
-    class CancelInvoiceRequestData : RequestData
+    public class CancelInvoiceRequestData : RequestData
     {
         public CancelInvoiceRequestData(string invoice_id)
         {
